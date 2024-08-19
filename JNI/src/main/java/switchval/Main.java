@@ -7,7 +7,6 @@ public class Main {
     public native void setSum(int x, int y);
 
     static {
-        System.setProperty("java.library.path","C:/Users/ruyak/OneDrive/Masaüstü/JNI/src/main/java/switchval");
         Runtime.getRuntime().load("C:/Users/ruyak/OneDrive/Masaüstü/JNI/src/main/java/switchval/extern.dll");
 
     }
